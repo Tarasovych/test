@@ -17,6 +17,8 @@ p#phones {
     color: white;
     float: right;
     margin-top: 8rem;
+    margin-right: 1rem;
+    background: rgba(0,0,0,0.5);
 }
 * { box-sizing: border-box; }
 .video-background {
@@ -38,7 +40,7 @@ p#phones {
   .video-foreground { height: 300%; top: -100%; }
 }
 @media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
+  .video-foreground { width: 600%; left: -250%; }
 }
 div#text {
     color: white;
@@ -55,17 +57,19 @@ nav.navbar.navbar-default {
   font-size: 4rem;
 }
 p#phones {
-  font-size: 6rem;
-
-    display: inline-block;
-    vertical-align: middle;
+    font-size: 6rem;
+    display: block;
+    /* vertical-align: middle; */
     color: white;
-    float: right;
-    margin-top: 16rem;
-
+    float: inherit;
+    /* margin-top: 16rem; */
+    margin: auto;
+    text-align: center;
 }
 img {
-  width: 50%;
+  width: 40%;
+      margin: auto;
+    display: block;
 }
 ul.nav.navbar-nav {
     margin: auto;
@@ -82,7 +86,7 @@ img#bg {
   width: 150%;
 }
 }
-@media (max-width: 340px) {
+/*@media (max-width: 340px) {
   p#phones {
     display: block;
     margin: auto;
@@ -93,9 +97,6 @@ img#bg {
     margin: auto;
     display: block;
   }
-}
-/*a {
-    font-size: 18px;
 }*/
 html {
   font-family: sans-serif;
