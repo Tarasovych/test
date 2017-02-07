@@ -72,9 +72,11 @@ img {
     display: block;
 }
 ul.nav.navbar-nav {
-    margin: auto;
+    /*margin: auto;*/
     display: table;
     float: inherit;
+        margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 div#text {
     font-size: 4rem;
