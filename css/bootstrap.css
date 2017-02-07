@@ -45,6 +45,9 @@ div#text {
     background: rgba(0,0,0,0.5);
 }
 @media (max-device-width: 768px) {
+  a {
+    font-size: 40px;
+  }
   a.navbar-brand {
     display: none;
 }
@@ -53,13 +56,21 @@ nav.navbar.navbar-default {
 }
 p#phones {
   font-size: 6rem;
+
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    float: right;
+    margin-top: 16rem;
+
 }
 img {
   width: 50%;
 }
 ul.nav.navbar-nav {
-  margin-left: 6rem;
-  margin-right: 6rem;
+    margin: auto;
+    display: table;
+    float: inherit;
 }
 div#text {
     font-size: 4rem;
@@ -71,13 +82,21 @@ img#bg {
   width: 150%;
 }
 }
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   p#phones {
     display: block;
     margin: auto;
     float: none;
+    text-align: center;
 }
+  img {
+    margin: auto;
+    display: block;
+  }
 }
+/*a {
+    font-size: 18px;
+}*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -4430,8 +4449,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
-    margin: 0;
+    /*float: left;
+    margin: 0;*/
+        float: inherit;
+    margin: auto;
+    display: table;
   }
   .navbar-nav > li {
     float: left;
