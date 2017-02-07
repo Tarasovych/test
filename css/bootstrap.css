@@ -86,7 +86,7 @@ img#bg {
   width: 150%;
 }
 }
-/*@media (max-width: 340px) {
+@media (max-width: 340px) {
   p#phones {
     display: block;
     margin: auto;
@@ -97,7 +97,7 @@ img#bg {
     margin: auto;
     display: block;
   }
-}*/
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
